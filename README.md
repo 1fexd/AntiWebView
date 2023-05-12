@@ -22,7 +22,7 @@ Tested Android versions: 13
 * Tap "Enable module"
 * Select the apps you want AntiWebView to hook into
     * If the apps are running, you need to force-stop for AntiWebView to work 
-    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's setting)
+    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's settings)
 * When a selected app uses a WebView, a notification will now pop up which, when tapped, opens your default browser
 
 ### Non-Root / LSPatch / Shizuku
@@ -45,5 +45,5 @@ Tested Android versions: 13
 * Tap "Embed modules", then check AntiWebView
 * Tap "Start Patch"
 * After the patch is done, tap "Install"
-    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's setting) 
+    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's settings) 
 * If the patched app now uses a WebView, a notification will now pop up which, when tapped, opens your default browser
