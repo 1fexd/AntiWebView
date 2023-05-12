@@ -13,9 +13,7 @@ notification allowing the user to open the link in their browser.
 https://github.com/1fexd/AntiWebView/assets/58902674/7137325d-7e86-4140-99d7-38022a7b76b8
 
 
-
-
-The browser in this case is set to another app of
+The default browser in this case is set to another app of
 mine, [LinkSheet](https://github.com/1fexd/LinkSheet), which restores the Android <12 Url-App-Link
 Chooser
 
