@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AntiWebView</string>
+    <string name="channel_description">Used to notify the user about URLs loaded in WebViews</string>
+    <string name="notification_title">URL loaded in WebView</string>
+    <string name="notification_content">Tap to open in browser</string>
+</resources>
