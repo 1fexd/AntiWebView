@@ -7,7 +7,15 @@ in a browser?
 AntiWebView is a simple LSPosed/LSPatch module which hooks WebViews in any app and displays a
 notification allowing the user to open the link in their browser.
 
-## Installation 
+## Demo
+
+![Demo video](readme/demo.mp4)]
+
+The browser in this case is set to another app of
+mine, [LinkSheet](https://github.com/1fexd/LinkSheet), which restores the Android <12 Url-App-Link
+Chooser
+
+## Installation
 
 Tested Android versions: 13
 
@@ -21,20 +29,26 @@ Tested Android versions: 13
 * AntiWebView should show up as a module
 * Tap "Enable module"
 * Select the apps you want AntiWebView to hook into
-    * If the apps are running, you need to force-stop for AntiWebView to work 
-    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's settings)
-* When a selected app uses a WebView, a notification will now pop up which, when tapped, opens your default browser
+    * If the apps are running, you need to force-stop for AntiWebView to work
+    * If you are running Android 13+, make sure the app has the Notification permission (can be set
+      in the app's settings)
+* When a selected app uses a WebView, a notification will now pop up which, when tapped, opens your
+  default browser
 
 ### Non-Root / LSPatch / Shizuku
 
 * Download and install [LSPatch](https://github.com/LSPosed/LSPatch)
 * Download and install [Shizuku](https://github.com/RikkaApps/Shizuku)
     * Launch Shizuku and start it via either ADB or Wireless debugging (Android 11+)
-    * Shizuku must be manually restarted after every boot - but the only step where it is actually required is when installed in LSPatch later on - so you probably don't have to have it running all the time
+    * Shizuku must be manually restarted after every boot - but the only step where it is actually
+      required is when installed in LSPatch later on - so you probably don't have to have it running
+      all the time
 * Install AntiWebView from [releases](https://github.com/1fexd/AntiWebView/releases)
     * The app won't show up in your launcher, don't worry.
 * Obtain an APK of the app you want to use AntiWebView with
-    * Reputable sources are [APKMirror](apkmirror.com) and [APKPure](apkpure.com) (these sites provide bundles (`*.apks`, *`.xapk` etc.) as well as actual APK files - make sure to download the APK version)
+    * Reputable sources are [APKMirror](apkmirror.com) and [APKPure](apkpure.com) (these sites
+      provide bundles (`*.apks`, *`.xapk` etc.) as well as actual APK files - make sure to download
+      the APK version)
     * The app you want to install must not yet be installed on your device - if it is, uninstall it
 * Open the LSPatch manager and tap the banner at the top to grant it permission to use Shizuku
 * Tap "Manage" in the navbar on the bottom, then tap the "+" button
@@ -45,5 +59,7 @@ Tested Android versions: 13
 * Tap "Embed modules", then check AntiWebView
 * Tap "Start Patch"
 * After the patch is done, tap "Install"
-    * If you are running Android 13+, make sure the app has the Notification permission (can be set in the app's settings) 
-* If the patched app now uses a WebView, a notification will now pop up which, when tapped, opens your default browser
+    * If you are running Android 13+, make sure the app has the Notification permission (can be set
+      in the app's settings)
+* If the patched app now uses a WebView, a notification will now pop up which, when tapped, opens
+  your default browser

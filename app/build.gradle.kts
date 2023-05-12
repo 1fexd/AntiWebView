@@ -22,8 +22,8 @@ android {
         targetSdk = 33
         versionCode = 1
         versionName = "0.0.1"
+        setProperty("archivesBaseName", "AntiWebView-$versionName")
     }
-
 
     buildTypes {
         release {
