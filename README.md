@@ -48,7 +48,7 @@ Tested Android versions: 13
 * Install AntiWebView from [releases](https://github.com/1fexd/AntiWebView/releases)
     * The app won't show up in your launcher, don't worry.
 * Obtain an APK of the app you want to use AntiWebView with
-    * Reputable sources are [APKMirror](apkmirror.com) and [APKPure](apkpure.com) (these sites
+    * Reputable sources are [APKMirror](https://apkmirror.com) and [APKPure](https://apkpure.com) (these sites
       provide bundles (`*.apks`, *`.xapk` etc.) as well as actual APK files - make sure to download
       the APK version)
     * The app you want to install must not yet be installed on your device - if it is, uninstall it
