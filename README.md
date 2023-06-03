@@ -1,21 +1,7 @@
 # AntiWebView
 
-Have you ever used horrible apps like Reddit which display ALL external links opened through their
-shitty app in a Android WebView ("in-app browser") which, depending on the WebView implementation your phone is using, does not allow you to open the clicked link
-in a browser?
-
 AntiWebView is a simple LSPosed/LSPatch module which hooks WebViews in any app and displays a
 notification allowing the user to open the link in their browser.
-
-## Demo
-
-
-https://github.com/1fexd/AntiWebView/assets/58902674/7137325d-7e86-4140-99d7-38022a7b76b8
-
-
-The default browser in this case is set to another app of
-mine, [LinkSheet](https://github.com/1fexd/LinkSheet), which restores the Android <12 Url-App-Link
-Chooser
 
 ## Installation
 
